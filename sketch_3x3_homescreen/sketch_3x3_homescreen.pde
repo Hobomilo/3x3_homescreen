@@ -1,9 +1,23 @@
 //global variables
+int appWidth, appHeight, largerDimension, smallerDimension;
+color gridRectColor = #E7B4F5;
+void setup(){
+size(1600, 1000);
 
-void setup(){}
+appWidth = width;
+appHeight = height;
 
-void draw(){}
+population();
+}
+
+void draw(){
+
+grid();
+
+}
 
 void keyPressed(){}
 
-void mousePressed() {}
+void mousePressed() {
+hover();
+}
