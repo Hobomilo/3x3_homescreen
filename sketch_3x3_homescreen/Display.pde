@@ -1,4 +1,4 @@
-boolean landscape = false, portrait = false;
+
 void display() {
 if(appHeight > appWidth) portrait = true; else{ landscape=true; }
 if(appWidth > displayWidth) appWidth = 0;

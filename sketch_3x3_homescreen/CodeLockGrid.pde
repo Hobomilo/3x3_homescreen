@@ -8,42 +8,41 @@ line(0, lineY2, appWidth, lineY2);
 //Top to bottom, left to right
 //top row
 
-if (rect1 == true) fill(gridRectColor);
+fill (red);
+if (rect1 == true) fill(ClRectColor);
 rect(0, 0, gridRectWidth, gridRectHeight);
 
-;
-if (rect2 == true) fill(gridRectColor);
+fill (red);
+if (rect2 == true) fill(ClRectColor);
 rect(lineX1, 0, gridRectWidth, gridRectHeight);
 
-;
-if (rect3 == true) fill(gridRectColor);
+fill (red);
+if (rect3 == true) fill(ClRectColor);
 rect(lineX2, 0, gridRectWidth, gridRectHeight);
 
 //middle row
-;
-if (rect4 == true) fill(gridRectColor);
+fill (red);
+if (rect4 == true) fill(ClRectColor);
 rect(0, lineY1, gridRectWidth, gridRectHeight);
 
-;
-if (rect5 == true) fill(gridRectColor);
+fill (red);
+if (rect5 == true) fill(ClRectColor);
 rect(lineX1, lineY1, gridRectWidth, gridRectHeight);
-//;
- // rect(lineX1*7/6, lineY1*7/6, lineX1*2/3, lineY1*2/3);
    
-;   
-if (rect6 == true) fill(gridRectColor);
+fill (red);   
+if (rect6 == true) fill(ClRectColor);
 rect(lineX2, lineY1, gridRectWidth, gridRectHeight);
 
 //bottom row
-;
-if (rect7 == true) fill(gridRectColor);
+fill (red);
+if (rect7 == true) fill(ClRectColor);
 rect(0, lineY2, gridRectWidth, gridRectHeight);
 
-;
-if (rect8 == true) fill(gridRectColor);
+fill (red);
+if (rect8 == true) fill(ClRectColor);
 rect(lineX1, lineY2, gridRectWidth, gridRectHeight);
 
-;
-if (rect9 == true) fill(gridRectColor);
+fill (red);
+if (rect9 == true) fill(ClRectColor);
 rect(lineX2, lineY2, gridRectWidth, gridRectHeight);
 }
