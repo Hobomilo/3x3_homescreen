@@ -8,13 +8,9 @@ boolean rect1 = false, rect2 = false, rect3 = false, rect4 = false, rect5 = fals
 boolean OSstart = false, trueStart = false;
 boolean landscape = false, portrait = false;
 boolean C1 = false, C2 = false;
-boolean clickable = false;
 
 float lineX1, lineX2, lineY1, lineY2;
 float gridRectWidth, gridRectHeight;
-float second = second();
-float second2 = second+2;
-
 
 color ClRectColor = #11CE18;
 color gridRectColor = #CE6FDB;
@@ -38,7 +34,7 @@ if(OSstart == false)
 OSstartScrn();
 else{
 grid();
-
+text();
 }  
   
 if (OSstart==true && trueStart == false) {
@@ -47,6 +43,9 @@ if (OSstart==true && trueStart == false) {
   hover();
 }
 
+if (trueStart == true) {
+reset();
+}
 
 
 }

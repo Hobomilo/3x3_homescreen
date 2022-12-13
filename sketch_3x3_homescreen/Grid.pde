@@ -21,8 +21,10 @@ rect(lineX2, 0, gridRectWidth, gridRectHeight);
 
 rect(0, lineY1, gridRectWidth, gridRectHeight);
 
+fill(reset);
 rect(lineX1, lineY1, gridRectWidth, gridRectHeight);
-   
+
+fill(gridRectColor);
 rect(lineX2, lineY1, gridRectWidth, gridRectHeight);
 
 //bottom row
@@ -35,5 +37,6 @@ rect(lineX2, lineY2, gridRectWidth, gridRectHeight);
 
 //Story Buttons
  fill(reset);
- rect(lineX1*7/6, lineY1*7/6, lineX1*2/3, lineY1*2/3);
+ rect(lineX1*13/12, lineY1*7/6, lineX1*1/3, lineY1*1/3);
+ rect(lineX1*19/12, lineY1*7/6, lineX1*1/3, lineY1*1/3);
 }
