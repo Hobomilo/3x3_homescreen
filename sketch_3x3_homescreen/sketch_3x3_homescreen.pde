@@ -1,13 +1,14 @@
 //global variables
 int appWidth, appHeight, largerDimension, smallerDimension;
 int reset = 255;
-
+int hour = hour();
 
 
 boolean rect1 = false, rect2 = false, rect3 = false, rect4 = false, rect5 = false, rect6 = false, rect7 = false, rect8 = false, rect9 = false;
 boolean OSstart = false, trueStart = false;
 boolean landscape = false, portrait = false;
 boolean C1 = false, C2 = false;
+boolean daymode=false, nightmode = false;
 
 float lineX1, lineX2, lineY1, lineY2;
 float gridRectWidth, gridRectHeight;
@@ -30,9 +31,12 @@ population();
 
 void draw(){
 
-if(OSstart == false) 
+if(OSstart == false) {
 OSstartScrn();
-else{
+textSize(80);
+fill(0);
+text("Click to Start", lineX1*1.02, lineY1*1.5);}
+else {
 grid();
 text();
 }  
