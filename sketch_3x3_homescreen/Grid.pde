@@ -39,4 +39,5 @@ rect(lineX2, lineY2, gridRectWidth, gridRectHeight);
  fill(reset);
  rect(lineX1*13/12, lineY1*7/6, lineX1*1/3, lineY1*1/3);
  rect(lineX1*19/12, lineY1*7/6, lineX1*1/3, lineY1*1/3);
+ rect(lineX1*13/12, lineY1*1.6, lineX1*5/6, lineY1*1/3);
 }
