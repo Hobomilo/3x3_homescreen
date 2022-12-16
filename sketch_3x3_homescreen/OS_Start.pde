@@ -10,5 +10,5 @@ rect(osTextBoxX, osTextBoxY, osTextBoxWidth, osTextBoxHeight);
 stroke(0);
 textSize(100);
 fill(0);
-text("Press Esc to exit", osTextBoxX, osTextBoxY);
+text("Press Esc to exit", osTextBoxX*3, osTextBoxY*1.1);
 }
