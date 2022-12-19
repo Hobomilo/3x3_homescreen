@@ -4,6 +4,7 @@ if( mouseX > lineX1*19/12 && mouseX < lineX1*19/12 + lineX1*1/3 && mouseY > line
   trueStart=false;
   C1=false;
   C2=false;
+  S1 = false;
 }
 }
 
@@ -12,6 +13,6 @@ if( mouseX > lineX1*13/12 && mouseX < lineX1*13/12 + lineX1*5/6 && mouseY > line
 
 }
 
-void start() {
-if ( mouseX > lineX1*13/12 && mouseX < lineX1*13/12 + lineX1*5/6 && mouseY > lineY1*1.6 && mouseY < lineY1*1.6 + lineY1*1/3 && mousePressed) Ohio = true;
+void startButton() {
+if ( mouseX > lineX1*13/12 && mouseX < lineX1*13/12 + lineX1*5/6 && mouseY > lineY1*7/6 && mouseY < lineY1*7/6 + lineY1*1/3 && mousePressed) S1 = true;
 } 

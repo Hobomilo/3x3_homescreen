@@ -7,7 +7,7 @@ boolean OSstart = false, trueStart = false;
 boolean landscape = false, portrait = false;
 boolean C1 = false, C2 = false;
 boolean daymode=false, nightmode = false;
-boolean Ohio == false;
+boolean S1= false;
 
 float lineX1, lineX2, lineY1, lineY2;
 float gridRectWidth, gridRectHeight;
@@ -19,3 +19,5 @@ color startBG = #6046D3;
 color red = #FF0D0D;
 
 PFont georgia;
+
+PImage loaf, slice, PB, J, PBslice, Jslice, PBJ;
