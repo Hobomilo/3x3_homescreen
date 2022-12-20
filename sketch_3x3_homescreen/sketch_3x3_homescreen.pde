@@ -14,7 +14,6 @@ population();
 void draw(){
 
   nightmode();
-  
 if(OSstart == false) {
 OSstartScrn();
 textSize(80);
@@ -36,7 +35,10 @@ reset();
 quit();
 startButton();
 }
-loaf();
+
+  narrative();
+  images();
+  
 }
 
 void keyPressed(){
