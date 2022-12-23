@@ -15,10 +15,10 @@ void population() {
   osTextBoxHeight = appHeight*1/6;
 
   loaf = loadImage("../Images Used/loaf.jpg");
-  //slice = loadImage();
-  //PB = loadImage();
-  //J = loadImage();
-  //PBslice = loadImage();
-  //Jslice = loadImage();
-  //PBJ = loadImage();
+  slice = loadImage("../Images Used/slice.jpg");
+  PB = loadImage("../Images Used/peanutbutter.jpg");
+  J = loadImage("../Images Used/jam.jpg");
+  PBslice = loadImage("../Images Used/slicePB.jpg");
+  Jslice = loadImage("../Images Used/sliceJ.jpg");
+  PBJ = loadImage("../Images Used/PB&J.jpg");
 }
