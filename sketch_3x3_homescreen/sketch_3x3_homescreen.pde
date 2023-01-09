@@ -6,8 +6,6 @@ void setup() {
   appWidth = width;
   appHeight = height;
 
-
-
   population();
 }
 
