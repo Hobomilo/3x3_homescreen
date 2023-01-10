@@ -8,6 +8,7 @@ boolean landscape = false, portrait = false;
 boolean C1 = false, C2 = false;
 boolean daymode = false, nightmode = false;
 boolean imageStart  = false, pic1 = false, pic2 = false, pic3 = false, pic4 = false, pic5 = false, pic6 = false, pic7 = false, pic8 = false;
+boolean imageReset = false;
 
 float lineX1, lineX2, lineY1, lineY2;
 float gridRectWidth, gridRectHeight;

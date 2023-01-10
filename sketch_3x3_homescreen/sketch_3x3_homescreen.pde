@@ -10,7 +10,13 @@ void setup() {
 }
 
 void draw() {
-
+  if (trueStart == true) {
+    fill(255);
+    reset();
+    quit();
+    startButton();
+  }
+  
   nightmode();
   if (OSstart == false) {
     OSstartScrn();
@@ -28,14 +34,12 @@ void draw() {
     hover();
   }
 
-  if (trueStart == true) {
-    reset();
-    quit();
-    startButton();
-  }
 
+
+ 
   narrative();
   images();
+  
 }
 
 void keyPressed() {
