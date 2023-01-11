@@ -1,4 +1,6 @@
 void images() {
+  if (nightmode == true) tint(120, 120, 30);
+
   if (pic1 == true) image(loaf, lineX2, 0, appWidth*1/3, appHeight*1/3);
 
   if (pic2 == true) image(slice, lineX2, lineY1, appWidth*1/3, appHeight*1/3);

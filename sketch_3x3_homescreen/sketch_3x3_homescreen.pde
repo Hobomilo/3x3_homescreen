@@ -10,6 +10,7 @@ void setup() {
 }
 
 void draw() {
+    
   if (trueStart == true) {
     fill(255);
     reset();
