@@ -16,7 +16,7 @@ void draw() {
     quit();
     startButton();
   }
-  
+
   nightmode();
   if (OSstart == false) {
     OSstartScrn();
@@ -33,13 +33,8 @@ void draw() {
     codeLock();
     hover();
   }
-
-
-
- 
   narrative();
   images();
-  
 }
 
 void keyPressed() {
