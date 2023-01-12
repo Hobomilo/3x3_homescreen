@@ -1,7 +1,7 @@
 
 void nightmode() {
 
-  if (hour <7 && hour >21) daymode = true; 
+  if (hour >7 && hour <21) daymode = true; 
   else nightmode = true;
 
   if (daymode==true) {

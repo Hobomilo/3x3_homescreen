@@ -10,7 +10,7 @@ void setup() {
 }
 
 void draw() {
-    
+
   if (trueStart == true) {
     fill(255);
     reset();
@@ -23,7 +23,7 @@ void draw() {
     OSstartScrn();
     textSize(80);
     fill(0);
-    text("Click to Start", lineX1*1.02, lineY1*1.5);
+    text("Click to Start", lineX1 + lineX1*1/16, lineY1 + lineY1*3/5);
   } else {
     grid();
     text();

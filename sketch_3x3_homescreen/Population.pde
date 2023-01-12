@@ -13,6 +13,8 @@ void population() {
   osTextBoxY = appHeight*3/4;
   osTextBoxWidth = appWidth*5/6;
   osTextBoxHeight = appHeight*1/6;
+  
+  georgia = createFont("Georgia-48.blw", 100);
 
   loaf = loadImage("../Images Used/loaf.jpg");
   slice = loadImage("../Images Used/slice.jpg");
@@ -21,4 +23,5 @@ void population() {
   PBslice = loadImage("../Images Used/slicePB.jpg");
   Jslice = loadImage("../Images Used/sliceJ.jpg");
   PBJ = loadImage("../Images Used/PB&J.jpg");
+  borzoi = loadImage("../Images Used/borzoi.png");
 }

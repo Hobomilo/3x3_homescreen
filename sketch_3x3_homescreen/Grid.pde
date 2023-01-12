@@ -22,6 +22,7 @@ void grid() {
   rect(0, lineY1, gridRectWidth, gridRectHeight);
 
   fill(reset);
+  if (nightmode == true) fill(142);
   rect(lineX1, lineY1, gridRectWidth, gridRectHeight);
 
   fill(gridRectColor);
@@ -37,7 +38,9 @@ void grid() {
 
   //Story Buttons
   fill(reset);
+  if (nightmode == true) fill(142);
   rect(lineX1*13/12, lineY1*7/6, lineX1*1/3, lineY1*1/3); //Start
   rect(lineX1*19/12, lineY1*7/6, lineX1*1/3, lineY1*1/3); //Reset
-  rect(lineX1*13/12, lineY1*16/10, lineX1*5/6, lineY1*1/3); //Quit
+  rect(lineX1*13/12, lineY1*16/10, lineX1*1/3, lineY1*1/3); //Quit
+  rect(lineX1*19/12, lineY1*16/10, lineX1*1/3, lineY1*1/3); //Music
 }
