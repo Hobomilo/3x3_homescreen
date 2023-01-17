@@ -7,6 +7,8 @@ void setup() {
   appHeight = height;
 
   population();
+
+  player = minim.loadFile("../Music/BGM_loop.mp3");
 }
 
 void draw() {
@@ -40,6 +42,9 @@ void draw() {
 
 void keyPressed() {
   if (keyCode == ESC) exit();
+  if (key == 'r' || key == 'R') player.rewind();
+  if (key == ' ' && musicToggle == false) player.loop();
+  if (key == ' ' && musicToggle == true) player.pause();
 }
 
 void mousePressed() {
