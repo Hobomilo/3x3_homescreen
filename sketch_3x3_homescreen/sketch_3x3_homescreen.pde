@@ -1,3 +1,8 @@
+import ddf.minim.*;
+
+Minim minim;
+AudioPlayer player; //Name of player
+AudioPlayer yipee; 
 
 
 void setup() {
@@ -7,8 +12,10 @@ void setup() {
   appHeight = height;
 
   population();
+  minim = new Minim(this);
+  player = minim.loadFile("BGM_loop.mp3");
+  yipee = minim.loadFile("creature.mp3");
 
-  player = minim.loadFile("../Music/BGM_loop.mp3");
 }
 
 void draw() {
@@ -38,13 +45,13 @@ void draw() {
   }
   narrative();
   images();
+  musicControls();
 }
 
 void keyPressed() {
   if (keyCode == ESC) exit();
   if (key == 'r' || key == 'R') player.rewind();
-  if (key == ' ' && musicToggle == false) player.loop();
-  if (key == ' ' && musicToggle == true) player.pause();
+  if (key == ' ') player.loop();
 }
 
 void mousePressed() {

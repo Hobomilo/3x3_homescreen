@@ -77,6 +77,9 @@ void narrative() {
   if (pic7==true) {
     fill(255);
     rect(lineX1 + lineX1*1/3, lineY1*1/3, appWidth*1/9, appHeight*1/9); // box on 2
-    if ( mouseX > lineX1 + lineX1*1/3 && mouseX < lineX1 + lineX1*1/3 + appWidth*1/9 && mouseY > lineY1*1/3 && mouseY < lineY1*1/3 + appHeight*1/9 && mousePressed) pic8 = true;
+    if ( mouseX > lineX1 + lineX1*1/3 && mouseX < lineX1 + lineX1*1/3 + appWidth*1/9 && mouseY > lineY1*1/3 && mouseY < lineY1*1/3 + appHeight*1/9 && mousePressed) {
+      yipee.play();
+      pic8 = true;
+    }
   }
 }
