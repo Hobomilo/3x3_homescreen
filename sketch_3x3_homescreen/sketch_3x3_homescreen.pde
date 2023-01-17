@@ -15,7 +15,6 @@ void setup() {
   minim = new Minim(this);
   player = minim.loadFile("BGM_loop.mp3");
   yipee = minim.loadFile("creature.mp3");
-
 }
 
 void draw() {
